@@ -8,6 +8,7 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 355;
+  background-color: pink;
   --first-color: hsl(var(--hue-color), 80%, 20%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
@@ -51,8 +52,19 @@ body {
   color: var(--black-color);
 }
 
+.header__img {
+  border-radius: 5rem;
+  margin: 0px;
+}
+
 h1, h2, p {
   margin: 0;
+  text-align: justify;
+}
+
+h3 {
+  color: brown;
+  text-align: center;
 }
 
 ul {
@@ -234,7 +246,8 @@ img {
   fill: var(--first-color);
 }
 
-.home__blob-img {
+.home__blob-img:hover {
+  transform: scale(1.0);
   width: 360px;
 }
 
@@ -272,10 +285,14 @@ img {
   border-radius: .5rem;
 }
 
-.about__download {
-  display: flex;
+.about__button {
+  display: inline-flex;
   align-items: center;
   color: coral;
+}
+
+.button:hover {
+  transform: scale(1.1);
 }
 
 /* ===== SKILLS =====*/
@@ -341,8 +358,10 @@ img {
   width: 85%;
 }
 
-.skills__img {
-  border-radius: .5rem;
+.skills__video {
+  margin: 0px;
+  border-radius: 3rem;
+  align-items: center;
 }
 
 /* ===== WORK =====*/
@@ -363,6 +382,8 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+
+
 
 /* ===== CONTACT =====*/
 .contact .row{
