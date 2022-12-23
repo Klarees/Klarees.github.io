@@ -83,7 +83,6 @@ img {
   display: block;
 }
 
-/*===== CLASS CSS ===== */
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
@@ -110,7 +109,6 @@ img {
   padding-bottom: 2rem;
 }
 
-/*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -128,7 +126,6 @@ img {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
-/*===== NAV =====*/
 .nav {
   height: var(--header-height);
   display: flex;
@@ -183,7 +180,6 @@ img {
   cursor: pointer;
 }
 
-/*Active menu*/
 .active::after {
   position: absolute;
   content: '';
@@ -194,12 +190,10 @@ img {
   background-color: var(--first-color);
 }
 
-/*=== Show menu ===*/
 .show {
   right: 0;
 }
 
-/*===== HOME =====*/
 .home {
   position: relative;
   row-gap: 5rem;
@@ -251,7 +245,6 @@ img {
   width: 360px;
 }
 
-/*BUTTONS*/
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -295,7 +288,6 @@ img {
   transform: scale(1.1);
 }
 
-/* ===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
   text-align: center;
@@ -364,7 +356,6 @@ img {
   align-items: center;
 }
 
-/* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
 }
@@ -383,9 +374,6 @@ img {
   transform: scale(1.1);
 }
 
-
-
-/* ===== CONTACT =====*/
 .contact .row{
   display: inline;
   text-align: center;
@@ -428,7 +416,6 @@ img {
   transform: scale(1.1);
 }
 
-/* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
   color: #fff;
