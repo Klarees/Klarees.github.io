@@ -127,7 +127,6 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: rgba(209, 103, 103, 0.89);
-
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -202,7 +201,7 @@ img {
 .home {
   position: relative;
   row-gap: 5rem;
-  padding: 4rem 0 5rem;
+  padding: 4rem 0 4rem;
 }
 
 .home__data {
@@ -276,10 +275,17 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
+  justify-self: center;
 }
 
 .about__img {
   justify-self: center;
+}
+
+.about__text {
+  padding: 3rem .10rem;
+  justify-self: center;
+  padding-inline-start: .5rem;
 }
 
 .about__img img {
@@ -315,7 +321,6 @@ img {
 }
 
 .skills__text {
-  margin-bottom: var(--mb-2);
   padding: .10rem 3rem;
   justify-self: center;
   padding-inline-start: .5rem;
@@ -341,7 +346,7 @@ img {
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  width: 25rem;
+  width: 28rem;
 }
 
 .skills__icon {
@@ -410,6 +415,12 @@ img {
 
 .work__container {
   row-gap: 2rem;
+}
+
+.section-text {
+  padding: 3rem .10rem;
+  justify-self: center;
+  padding-inline-start: .5rem;
 }
 
 .work__img {
