@@ -148,6 +148,8 @@ img {
     padding: 2rem;
     background-color: var(--second-color);
     transition: .5s;
+    justify-items: center;
+    text-align: center;
   }
 }
 
