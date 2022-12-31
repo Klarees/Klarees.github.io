@@ -51,7 +51,6 @@ body {
   font-size: var(--normal-font-size);
   color: var(--black-color);
   align-items: center;
-  padding-inline-start: 5rem;
 }
 
 .header__img {
@@ -316,7 +315,6 @@ img {
 .skills__left {
   row-gap: 2rem;
   text-align: center;
-  padding: 3rem;
 }
 
 .skills__subtitle {
@@ -326,15 +324,12 @@ img {
 
 .skills__text {
   justify-self: center;
+  padding-right: 3rem;
 }
 
 .skills__box {
   justify-self: center;
-  padding: 3rem 3rem;
-  row-gap: 2rem;
-  text-align: center;
-  width: 200px;
-  border-radius: .5rem;
+
 }
 
 .skills__data {
